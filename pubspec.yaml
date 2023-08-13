@@ -1,0 +1,24 @@
+name: glow_in_dark
+description: A new Flutter project.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.6 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  light_sensor: ^2.0.2
+  cupertino_icons: ^1.0.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  very_good_analysis: ^5.0.0+1
+  flutter_lints: ^2.0.2
+
+
+flutter:
+  uses-material-design: true
